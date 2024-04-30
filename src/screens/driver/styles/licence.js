@@ -1,0 +1,88 @@
+import { StyleSheet } from 'react-native';
+
+export default styles = StyleSheet.create({
+   wrapper: {
+      flex: 1,
+      width: '100%',
+      backgroundColor: '#1A1A1A',
+      display: 'flex',
+      alignItems: 'center',
+   },
+   container: {
+      paddingTop: '10%',
+      width: '95%',
+      flex: 1,
+      alignItems: 'center',
+      display: 'flex',
+      justifyContent: 'space-between',
+      marginTop: 10,
+   },
+   content: {
+      width: '95%',
+      paddingTop: 50,
+      alignItems: 'flex-start',
+   },
+   inputsContainers: {
+      width: '100%',
+      height: 50,
+      marginTop: 5,
+      justifyContent: 'flex-end',
+   },
+   registerContainer: {
+      borderRadius: 2,
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      width: '100%',
+      paddingHorizontal: 10,
+      paddingVertical: 25,
+   },
+   imageContainer: {
+      width: 125,
+      height: 125,
+      backgroundColor: '#C4C4C4',
+      borderRadius: 80,
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   registerButton: {
+      width: '100%',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#2B2B2B',
+      flexDirection: 'row',
+      height: 45,
+      // marginTop: 15,
+   },
+   nextText: {
+      color: '#ffffff',
+      fontWeight: 'bold',
+   },
+   allInputs: {
+      paddingHorizontal: 4,
+      fontSize: 16,
+      height: 50,
+      // marginHorizontal: 5,
+      marginTop: 5,
+      color: 'white',
+      borderBottomWidth: 0.5,
+   },
+   userImage: {
+      width: 20,
+      height: 20,
+      borderRadius: 50,
+   },
+   headerContainer: {
+      width: '100%',
+      height: 125,
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   backButton: {
+      position: 'absolute',
+      left: 20,
+      top: 60,
+   },
+});

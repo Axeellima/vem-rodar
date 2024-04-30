@@ -1,0 +1,76 @@
+import { StyleSheet } from 'react-native';
+
+export default styles = StyleSheet.create({
+   wrapper: {
+      flex: 1,
+      width: '100%',
+      backgroundColor: '#5A87FE',
+      display: 'flex',
+      alignItems: 'center',
+   },
+   container: {
+      // paddingTop: '10%',
+      width: '100%',
+      flex: 1,
+      alignItems: 'center',
+      display: 'flex',
+      justifyContent: 'space-between',
+      paddingTop: 20,
+   },
+   content: {
+      width: '100%',
+      height: 240,
+      paddingTop: 50,
+      paddingLeft: 25,
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-around',
+      alignItems: 'flex-start',
+      backgroundColor: '#5A87FE',
+   },
+   aroundMap: {
+      width: '100%',
+      height: '60%',
+      backgroundColor: '#1A1A1A',
+      paddingLeft: 25,
+      paddingTop: 30,
+      paddingBottom: 30,
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-around',
+   },
+
+   backButton: {
+      position: 'absolute',
+      left: 20,
+      top: 60,
+   },
+   modalContainer: {
+      flex: 1,
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   scrollViewContent: {
+      flexGrow: 1,
+      justifyContent: 'center',
+      width: '100%',
+      height: '50%',
+   },
+   modalContent: {
+      position: 'absolute',
+      top: 100,
+      backgroundColor: '#1B1B1B',
+      width: 300,
+      padding: 20,
+      borderRadius: 10,
+   },
+   confirmButton: {
+      backgroundColor: '#2B2B2B',
+      alignItems: 'center',
+      paddingVertical: 10,
+      paddingHorizontal: 30,
+      borderRadius: 5,
+      marginTop: 20,
+   },
+});
