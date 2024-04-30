@@ -430,9 +430,7 @@ export default RiderHomeContents = ({ navigation }) => {
                                  destination={
                                     driverRegion ? driverRegion : null
                                  }
-                                 apikey={
-                                    'AIzaSyDvz7ZoqEAcZ_eC5rbJMhkXFIQMFyju5hU'
-                                 }
+                                 apikey={process.env.API_GOOGLE_KEY}
                                  strokeColor="#0F53FF"
                                  strokeWidth={8}
                                  timePrecision="now"
@@ -458,9 +456,7 @@ export default RiderHomeContents = ({ navigation }) => {
                               <MapViewDirections
                                  origin={driverRegion}
                                  destination={destinationRegion}
-                                 apikey={
-                                    'AIzaSyDvz7ZoqEAcZ_eC5rbJMhkXFIQMFyju5hU'
-                                 }
+                                 apikey={process.env.API_GOOGLE_KEY}
                                  strokeColor="#0F53FF"
                                  strokeWidth={8}
                                  timePrecision="now"

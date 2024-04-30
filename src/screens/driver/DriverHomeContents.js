@@ -434,7 +434,7 @@ export default DriverHomeContents = ({ navigation }) => {
                               ? initialRoute.riderLoc
                               : undefined
                         }
-                        apikey={'AIzaSyDvz7ZoqEAcZ_eC5rbJMhkXFIQMFyju5hU'}
+                        apikey={process.env.API_GOOGLE_KEY}
                         timePrecision="now"
                         mode="DRIVING"
                         strokeColor="#0F53FF"
